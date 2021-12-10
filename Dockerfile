@@ -8,3 +8,4 @@
 FROM ubuntu
 MAINTAINER sankar
 CMD apt-get update -y
+
