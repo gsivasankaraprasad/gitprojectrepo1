@@ -7,4 +7,4 @@
 
 FROM ubuntu
 MAINTAINER sankar
-COPY ./webapp.war /usr/local/tomcat/webapps
+CMD apt-get update -y
