@@ -2,5 +2,6 @@
 From tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+MAINTAINER sankar 
+#COPY ./webapp.war /usr/local/tomcat/webapps
+RUN apt-get install curl && apt-get install wget
